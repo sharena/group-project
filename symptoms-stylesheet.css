@@ -13,6 +13,13 @@ margin-right:200px;
 margin-top: 30px;
 font-size: 30px;
 }
+li{
+  font-family: sans-serif;
+  margin-left: 200px;
+  margin-right:200px;
+  margin-top: 30px;
+  font-size: 30px;
+}
 a{
 	margin: 30px;
 }

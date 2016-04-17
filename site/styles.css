@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
+body{
+	background-image:url("Schizoaffective.jpg");
+	background-repeat:repeat-x;
+	background-size:cover;
+	height: 50px;}
+
+nav{
+	display: inline;
+	font-family:Open Sans;
+	font-size: 2.5em;
+	font-weight:bold;
+	text-shadow:
+	   -1px -1px 0 #000,
+	    1px -1px 0 #000,
+	    -1px 1px 0 #000,
+	     1px 1px 0 #000;
+			 font-weight:100;
+			 position:relative;
+			 background:grey;
+			 padding:0 12px;
+}
+p{
+font-family: sans-serif;
+margin-left: 200px;
+margin-right:200px;
+margin-top: 30px;
+font-size: 2.5em;
+color: white;
+font-weight:bold;
+text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+		 font-weight:100;
+
+position:relative;
+top:18px;
+background:grey;
+padding:0 12px;
+text-align: justify;
+text-indent: 50px;
+}
+a{
+	margin: 30px;
+}
+h1{
+	font-size:4em;
+	font-family: Titillium Web);
+	color: red;
+	font-weight:bold;
+	text-shadow:
+	   -1px -1px 0 #000,
+	    1px -1px 0 #000,
+	    -1px 1px 0 #000,
+	     1px 1px 0 #000;
+			 letter-spacing: 1px;
+}
+
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}

@@ -13,6 +13,9 @@ margin-right:200px;
 margin-top: 30px;
 font-size: 30px;
 }
+.sub-heading{
+	text-decoration:underline;
+}
 a{
 	margin: 30px;
 }

@@ -85,15 +85,11 @@ h1{
 }
 
 a:link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:visited {
     color: purple;
     background-color: transparent;
     text-decoration: none;
 }
+
 a:hover {
     color: red;
     background-color: transparent;

@@ -18,12 +18,12 @@ nav{
 	    1px -1px 0 #000,
 	    -1px 1px 0 #000,
 	     1px 1px 0 #000;
-			 font-weight:100;
+			 font-weight:100px;
 			 position:relative;
 			 background:grey;
 			 padding:0 12px;
 }
-p{
+/*p{
 font-family: sans-serif;
 margin-left: 200px;
 margin-right:200px;
@@ -42,7 +42,7 @@ text-shadow:
 		 background:grey;
 		 text-align: justify;
 		 text-indent: 50px;
-}
+}*/
 ul{
 	color: white;
 	font-weight:bold;
@@ -51,20 +51,32 @@ ul{
 	    1px -1px 0 #000,
 	    -1px 1px 0 #000,
 	     1px 1px 0 #000;
-			 font-weight:100;
 	position:relative;
-	top:18px;
-	background:grey;
-	padding:0 0px;
 	text-align: justify;
+	font-family: sans-serif;
+	font-size: .9em;
+	word-spacing: -1;
+	line-height: 1.28;
+	
+}
+div{
 	font-family: sans-serif;
 	margin-left: 200px;
 	margin-right:200px;
 	margin-top: 30px;
-	font-size: 30px;
-	line-height: 1.28;
+	font-size: 2em;
+	color:white;
+	font-weight:bold;
+	text-shadow:
+	   -1px -1px 0 #000,
+	    1px -1px 0 #000,
+	    -1px 1px 0 #000,
+	     1px 1px 0 #000;
+	position:relative;
+	background:grey;
+	text-align: justify;
+	word-spacing: -.01em;
 }
-
 h1{
 	font-size:4em;
 	font-family: Titillium Web);

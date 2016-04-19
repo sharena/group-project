@@ -18,11 +18,30 @@ nav{
 	    1px -1px 0 #000,
 	    -1px 1px 0 #000,
 	     1px 1px 0 #000;
-			 font-weight:100;
+			 font-weight:100px;
 			 position:relative;
 			 background:grey;
 			 padding:0 12px;
 }
+div{
+	font-family: sans-serif;
+	margin-left: 200px;
+	margin-right:200px;
+	margin-top: 30px;
+	font-size: 2em;
+	color:white;
+	font-weight:bold;
+	text-shadow:
+	   -1px -1px 0 #000,
+	    1px -1px 0 #000,
+	    -1px 1px 0 #000,
+	     1px 1px 0 #000;
+	position:relative;
+	background:grey;
+	text-align: justify;
+
+}
+
 p{
 font-family: sans-serif;
 margin-left: 200px;
@@ -46,7 +65,7 @@ text-shadow:
 .sub-heading{
 	text-decoration:underline;
 	text-align:center;
-	font-size:4em;
+	font-size:3em;
 	color:red;
 	text-shadow:
 	   -1px -1px 0 #000,
@@ -67,18 +86,10 @@ ul{
 	    1px -1px 0 #000,
 	    -1px 1px 0 #000,
 	     1px 1px 0 #000;
-			 font-weight:100;
 	position:relative;
-	top:18px;
-	background:grey;
-	padding:0 0px;
-	text-align: justify;
 	font-family: sans-serif;
-	margin-left: 200px;
-	margin-right:200px;
-	margin-top: 30px;
-	font-size: 30px;
-	line-height: 1.28;
+	font-size: .9em;
+	line-height: 1.3em;
 }
 
 h1{
@@ -92,6 +103,9 @@ h1{
 	    -1px 1px 0 #000,
 	     1px 1px 0 #000;
 			 letter-spacing: 1px;
+}
+.underline{
+	text-decoration: underline;
 }
 a{
 	margin: 30px;
@@ -110,4 +124,10 @@ a:active {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
+}
+
+footer{
+	text-align:center;
+	background-color:grey;
+	font-weight: bolder;
 }

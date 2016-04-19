@@ -7,7 +7,24 @@ body{
 	background-size:cover;
 	height: 50px;
 }
-
+div{
+	font-family: sans-serif;
+	margin-left: 200px;
+	margin-right:200px;
+	margin-top: 30px;
+	font-size: 2em;
+	color:white;
+	font-weight:bold;
+	text-shadow:
+	   -1px -1px 0 #000,
+	    1px -1px 0 #000,
+	    -1px 1px 0 #000,
+	     1px 1px 0 #000;
+	position:relative;
+	top:18px;
+	background:grey;
+	text-align: justify;
+}
 nav{
 	display: inline;
 	font-family:Open Sans;
@@ -18,7 +35,7 @@ nav{
 	    1px -1px 0 #000,
 	    -1px 1px 0 #000,
 	     1px 1px 0 #000;
-			 font-weight:100;
+			 font-weight:100px;
 			 position:relative;
 			 background:grey;
 			 padding:0 12px;
@@ -51,17 +68,9 @@ ul{
 	    1px -1px 0 #000,
 	    -1px 1px 0 #000,
 	     1px 1px 0 #000;
-			 font-weight:100;
 	position:relative;
-	top:18px;
-	background:grey;
-	padding:0 0px;
-	text-align: justify;
 	font-family: sans-serif;
-	margin-left: 200px;
-	margin-right:200px;
-	margin-top: 30px;
-	font-size: 30px;
+	font-size: .9em;
 	line-height: 1.28;
 }
 .underline{

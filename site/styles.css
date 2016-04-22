@@ -1,33 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
-
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+/* Background */
 body{
 	background-image:url("Schizoaffective.jpg");
-	background-repeat:repeat-x;
+	background-repeat:repeat;
 	background-size:cover;
 	height: 50px;
 }
+/* image */
 img{
 float:left;
 }
+/* Nar bar */
 nav{
-	position: static;
 	display: inline;
 	font-family:Open Sans;
 	font-size: 2.5em;
 	font-weight:bold;
 	text-shadow:
-	   -1px -1px 0 #000,
-	    1px -1px 0 #000,
+	   -1px -1px 0 #FFF,
+	    1px -1px 0 #FFF,
 	    -1px 1px 0 #000,
 	     1px 1px 0 #000;
 			 font-weight:100px;
 			 position:relative;
-			 background:grey;
+			 background:transparent;
 			 padding:0 12px;
 }
-p{
+
+/*p{
 font-family: sans-serif;
 margin-left: 200px;
 margin-right:200px;
@@ -41,14 +44,15 @@ text-shadow:
     -1px 1px 0 #000,
      1px 1px 0 #000;
 		 font-weight:100;
-
 position:relative;
 top:18px;
 background:grey;
 padding:0 12px;
 text-align: justify;
 text-indent: 50px;
-}
+}*/
+
+/* Holds all of the text */
 div{
 	font-family: sans-serif;
 	margin-left: 200px;
@@ -63,28 +67,60 @@ div{
 	    -1px 1px 0 #000,
 	     1px 1px 0 #000;
 	position:relative;
-	top:18px;
 	background:grey;
 	text-align: justify;
+	word-spacing:-.1em;
 }
-a{
-	margin: 30px;
+/* id for link to video */
+#video{
+	font-family:Lobster;
+	text-shadow:
+		 -1px -1px 0 #000,
+			1px -1px 0 #FFF,
+			-1px 1px 0 #FFF,
+			 1px 1px 0 #000;
+			 letter-spacing:.1em;
 }
+
+/*Header for Schizoaffective Disorder */
 h1{
 	font-size:4em;
 	font-family: Titillium Web);
-	color: red;
 	font-weight:bold;
 	text-shadow:
-	   -1px -1px 0 #000,
-	    1px -1px 0 #000,
+	   -1px -1px 0 #FFF,
+	    1px -1px 0 #FFF,
 	    -1px 1px 0 #000,
-	     1px 1px 0 #000;
+	     1px 1px 0 #FFF;
 			 letter-spacing: 1px;
-}
+			 color:red;
+	     position: relative;
+	     -webkit-animation: disorder 10s linear 3s infinite; /* Chrome, Safari, Opera */
+	     animation: disorder 10s linear 3s infinite;
+	 }
+	 /* Chrome, Safari, Opera */
+	 @-webkit-keyframes disorder{
+	     0%   {color:#FF0000 ;}
+	     25%  {color:#FFFF33;}
+	     50%  {color:#0000CC;}
+	     75%  {color:#99FF00;}
+	     100% {color:#FF00FF;}
+	 }
 
+	 /* Standard syntax */
+	 @keyframes disorder {
+	     0%   {color:#FF0000 ;}
+	     25%  {color:#FFFF33;}
+	     50%  {color:#0000CC;}
+	     75%  {color:#99FF00;}
+	     100% {color:#FF00FF;}
+}
+/*Nav links*/
+a{
+	margin: 30px;
+}
 a:link {
-    color: purple;
+    color: yellow;
     background-color: transparent;
     text-decoration: none;
 }

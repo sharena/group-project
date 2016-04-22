@@ -4,7 +4,7 @@
 
 body{
 	background-image:url("Schizoaffective.jpg");
-	background-repeat:repeat-x;
+	background-repeat:repeat;
 	background-size:cover;
 	height: 50px;}
 
@@ -14,13 +14,13 @@ nav{
 	font-size: 2.5em;
 	font-weight:bold;
 	text-shadow:
-	   -1px -1px 0 #000,
-	    1px -1px 0 #000,
-	    -1px 1px 0 #000,
-	     1px 1px 0 #000;
+		-1px -1px 0 #FFF,
+	 	1px -1px 0 #FFF,
+	 	-1px 1px 0 #000,
+			1px 1px 0 #000;
 			 font-weight:100px;
 			 position:relative;
-			 background:grey;
+			 background:transparent;
 			 padding:0 12px;
 }
 .underline{
@@ -81,19 +81,39 @@ ul{
 a{
 	margin: 30px;
 }
+
 h1{
 	font-size:4em;
 	font-family: Titillium Web);
-	color: red;
 	font-weight:bold;
 	text-shadow:
-	   -1px -1px 0 #000,
-	    1px -1px 0 #000,
+	   -1px -1px 0 #FFF,
+	    1px -1px 0 #FFF,
 	    -1px 1px 0 #000,
-	     1px 1px 0 #000;
+	     1px 1px 0 #FFF;
 			 letter-spacing: 1px;
-}
+			 color:red;
+	     position: relative;
+	     -webkit-animation: disorder 10s linear 3s infinite; /* Chrome, Safari, Opera */
+	     animation: disorder 10s linear 3s infinite;
+	 }
+	 /* Chrome, Safari, Opera */
+	 @-webkit-keyframes disorder{
+	     0%   {color:#FF0000 ;}
+	     25%  {color:#FFFF33;}
+	     50%  {color:#0000CC;}
+	     75%  {color:#99FF00;}
+	     100% {color:#FF00FF;}
+	 }
 
+	 /* Standard syntax */
+	 @keyframes disorder {
+	     0%   {color:#FF0000 ;}
+	     25%  {color:#FFFF33;}
+	     50%  {color:#0000CC;}
+	     75%  {color:#99FF00;}
+	     100% {color:#FF00FF;}
+}
 a:link {
     color: purple;
     background-color: transparent;

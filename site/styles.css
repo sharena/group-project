@@ -9,9 +9,16 @@ body{
 	background-size:cover;
 	height: 50px;
 }
-/* image */
-img{
+/* images */
+#brain{
 float:left;
+}
+#awareness{
+	width: 7em;
+	height:4.5em;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
 /* Nar bar */
 nav{
@@ -68,8 +75,6 @@ div{
 	     1px 1px 0 #000;
 	position:relative;
 	background:grey;
-	text-align: justify;
-	word-spacing:-.1em;
 }
 /* id for link to video */
 #video{
@@ -81,7 +86,6 @@ div{
 			 1px 1px 0 #000;
 			 letter-spacing:.1em;
 }
-
 /*Header for Schizoaffective Disorder */
 h1{
 	font-size:4em;
@@ -106,7 +110,6 @@ h1{
 	     75%  {color:#99FF00;}
 	     100% {color:#FF00FF;}
 	 }
-
 	 /* Standard syntax */
 	 @keyframes disorder {
 	     0%   {color:#FF0000 ;}
@@ -120,7 +123,7 @@ a{
 	margin: 30px;
 }
 a:link {
-    color: yellow;
+    color: purple;
     background-color: transparent;
     text-decoration: none;
 }

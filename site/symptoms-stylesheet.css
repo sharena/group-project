@@ -42,7 +42,6 @@ div{
 	position:relative;
 	top:18px;
 	background:grey;
-	text-align: justify;
 }
 p{
 font-family: sans-serif;
@@ -60,7 +59,6 @@ text-shadow:
 position:relative;
 top:18px;
 background:grey;
-text-align: justify;
 text-indent: 50px;
 }
 

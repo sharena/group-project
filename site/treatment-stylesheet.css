@@ -146,6 +146,7 @@ a:active {
 }
 
 footer{
+	font-size:2em;
 	display: inline;
 	text-align:center;
 	background-color:grey;
